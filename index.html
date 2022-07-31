@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Djalma Leandro</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="header">
+            <div class="checkbox-container">
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="toggle">
+                    <label class="checkbox" for="toggle">
+                        <div class="trace"></div>
+                        <div class="trace"></div>
+                        <div class="trace"></div>    
+                    </label>
+                    <div class="menu"></div>
+                    <nav class="menu-items">
+                        <ul>
+                            <li>
+                                <a class="menuText" id="home" href="#divhome">Home</a>
+                            </li>
+                            <li>
+                                <a class="menuText" id="sobre" href="#divsobre">Sobre</a>
+                            </li>
+                            <li>
+                                <a class="menuText" id="projetos" href="#divprojetos">Projetos</a>
+                            </li>    
+                        </ul>
+                    </nav>
+                </div>           
+            </div>
+        </div>
+        <h1>Djalma Leandro</h1>
+        <h2>Full-Stack Developer</h2>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/djalmaleandro/" target="_blank" class="linksInicio">Linkedin</a>
+            <a href="https://github.com/xdiija" target="_blank" class="linksInicio">Gitbhub</a>
+        </div>    
+    </header> 
+    <div class="sobre">
+        
+        <div id="divsobre" class="sobre">
+            <div class="card-text">
+                <h2>Sobre</h2>
+                Estudante de Desenvolvimento de Sistemas pelo SENAI/SC, constantemente antenado à novas tendências tecnológicas, fiz cursos em Desenvolvimento Front-End pela Cod3r e Alura, Desenvolvimento Back-End pela RocketSeat e Udemy.
+                <br>
+                <br>
+                Com experiência de 1 ano atuando como programador full-stack, atualmente faço parte do time de desenvolvimento da iColabora Brasil.
+            </div>
+            <div class="card-text">
+                <h2>Técnologias</h2>
+                <strong>PRINCIPAIS</strong>
+                <br>
+                <br>
+                | JavaScript &ensp; | &ensp; HTML &ensp; | &ensp; CSS &ensp; | &ensp; jQuery &ensp;|
+                <br>
+                <br>
+                <strong>SECUNDÁRIAS</strong>
+                <br>
+                <br>
+                | NodeJs &ensp; | &ensp; VueJs &ensp; | &ensp; Git &ensp; | &ensp; MySql &ensp; |
+                <br>
+                <br>
+                | Docker &ensp; | &ensp; FeatherJs &ensp; | &ensp; TypeScript &ensp;|
+            </div>
+        </div>
+    </div> 
+    <hr>
+    <main class="container">
+        <div id="divprojetos" class="card-container">
+            <a href="https://puxa-conversa.netlify.app/" style="text-decoration: none;" target="_blank" class="card ignoreCss">
+                <div class="card-wrapper">
+                    <h2>App Puxa Conversa Casal</h2>
+                    <p>Vem ver</p>
+                </div>
+            </a>
+            <div class="card-text">
+                Aplicativo criado para estimular a comunicação entre casais, baseado no jogo de cartas do mesmo nome, técnologias usadas: HTML, CSS, JS + jQuery.
+            </div>
+        </div>
+        <div class="card-container">
+            <a href="https://puxa-conversa.netlify.app/" style="text-decoration: none;" target="_blank" class="card ignoreCss">
+                <div class="card-wrapper">
+                    <h2>Sistema de Login</h2>
+                    <p>Vem ver</p>
+                </div>
+            </a>
+            <div class="card-text">
+                (Em construção)Um sistema criado para cadastro de usuários, onde após o login é possivel ler, postar editar e excluir comentários (CRUD), técnologias usadas: HTML, CSS, Quasar, VueJs, JavaScript, NodeJS, mySQL, FeathersJs, ExpressJs.
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        Developed by Djalma Leandro    
+    </footer>
+    <script src="js/jquery-3.6.0.js"> </script>
+    <script src="js/index.js"></script>   
+</body>
+</html>
